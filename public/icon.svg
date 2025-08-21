@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 500 500"><path fill="#B04304" d="M295.334 103.333v-40L340.667 90v40l-45.333-26.667ZM250.001 63.333l-45.334-26.666v426.666L250.001 490V63.333Z"/><path fill="#FF5D01" d="m250.001 129.944 45.333-26.667 45.333 26.667-45.333 26.667-45.333-26.667ZM204.667 36.667 250.001 10l45.333 26.667-45.333 26.666-45.334-26.666ZM295.334 63.277l45.333-26.666L386 63.277l-45.333 26.667-45.333-26.667ZM114 223.277l45.333-26.667 45.334 26.667-45.334 26.667L114 223.277ZM250 249.944l-45.333-26.667v53.333L250 249.944Z"/><path fill="#53C68C" d="m250 63.333 45.333-26.666v120L340.667 130V90L386 63.333V170l-90.667 53.333v240L250 490V316.667L159.333 370V250l45.334-26.667v53.334L250 250V63.333Z"/><path fill="#B04304" d="M159.333 250 114 223.334v120L159.333 370V250Z"/></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none" stroke="black" stroke-width="2">
+  <path d="M32 2 L34 10 L32 10 L30 2 Z" /> <!-- Spearhead -->
+  <line x1="32" y1="10" x2="32" y2="60" /> <!-- Spear shaft -->
+  <line x1="20" y1="14" x2="44" y2="14" /> <!-- Crossbar -->
+  <path d="M20 14 Q22 30 24 40 Q28 50 32 52 Q36 50 40 40 Q42 30 44 14 Z" fill="black" /> <!-- Banner -->
+  <circle cx="32" cy="30" r="4" fill="white" /> <!-- Central emblem -->
+  <path d="M28 26 Q32 20 36 26" stroke="white" stroke-width="2" fill="none" /> <!-- Stylized wings -->
+  <circle cx="26" cy="24" r="1.5" fill="white" />
+  <circle cx="38" cy="24" r="1.5" fill="white" />
+  <path d="M30 60 Q32 58 34 60 Q32 62 30 60 Z" fill="black" /> <!-- Grass base -->
+</svg>
