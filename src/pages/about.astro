@@ -15,9 +15,6 @@ const meta = {
 
 	<div class="prose prose-sm prose-cactus max-w-none">
 		<p>
-			修改‘关于’的内容 -> src/pages/about.astro， 修改网站配置 -> src/site.config.ts， 修改导航栏标题，图片 -> src/components/layout/Header.astro。
-		</p>
-		<p>
 			① 点击 Fork 按钮，复制本项目到你的GitHub 仓库。
 		</p>
 		<p>
@@ -30,7 +27,17 @@ const meta = {
 			④ 在https://github.com/settings/applications/new输入域名https://boke.052360.xyz、https://boke.052360.xyz/oauth/callback，得到 Oauth ID 和 secret。
 		</p>
 		<p>
-			随笔与札记，一个记录生活，一个记录知识。它们是我与世界对话的方式，也是我与自己对话的桥梁。希望这些文字能够带给你一些启发，000000000000000。
+			⑤ 在 Vercel -> Settings -> Environment Variables，添加2个环境变量：OAUTH_GITHUB_CLIENT_ID -> Oauth ID和OAUTH_GITHUB_CLIENT_SECRET -> Oauth secret。
+		</p>
+		</p>
+		<p>
+			⑤ 进入Vercel添加博客的域名boke.052360.xyz，会提示修改CNAME，在052360.xyz的托管网站添加CNAME即可。
+		</p>
+		<p>
+			⑤ boke.052360.xyz博客完成并生效。
+		</p>
+		<p>
+			修改‘关于’的内容 -> src/pages/about.astro， 修改网站配置 -> src/site.config.ts， 修改导航栏标题，图片 -> src/components/layout/Header.astro。
 		</p>
 	</div>
 	<div>
