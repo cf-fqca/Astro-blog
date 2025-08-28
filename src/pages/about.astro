@@ -18,10 +18,10 @@ const meta = {
 			Astro博客的搭建：
 		</p>
 		<p>
-			① 点击 Fork 按钮，复制Astro项目到GitHub 仓库，建议使用不同的仓库名称增加保密性。
+			① Fork 项目到GitHub 仓库，建议使用不同的仓库名增加保密性。
 		</p>
 		<p>
-			② Vercel 注册https://vercel.com/login，关联 GitHub 账户，导入仓库。
+			② 注册https://vercel.com/login，关联 GitHub 账户，导入仓库。
 		</p>
 		<p>
 			③ 修改public/admin/config.yml文件内的三处，repo: 仓库路径，site_domain: boke.052360.xyz，https://boke.052360.xyz。
@@ -31,7 +31,6 @@ const meta = {
 		</p>
 		<p>
 			⑤ 在 Vercel -> Settings -> Environment Variables，添加2个环境变量：OAUTH_GITHUB_CLIENT_ID -> Oauth ID和OAUTH_GITHUB_CLIENT_SECRET -> Oauth secret。
-		</p>
 		</p>
 		<p>
 			⑤ 在Vercel添加博客的域名boke.052360.xyz，会提示缺少DNS记录，在052360.xyz的托管网站添加，boke.052360.xyz博客域名至此生效，通过访问 你的域名/admin 访问博客后台，进行编辑、发布文章。
